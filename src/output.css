@@ -11,6 +11,7 @@
     --color-yellow-500: oklch(79.5% 0.184 86.047);
     --color-zinc-950: oklch(14.1% 0.005 285.823);
     --color-white: #fff;
+    --spacing: 0.25rem;
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --font-weight-bold: 700;
@@ -171,14 +172,23 @@
   .relative {
     position: relative;
   }
+  .ml-8 {
+    margin-left: calc(var(--spacing) * 8);
+  }
   .table {
     display: table;
   }
   .h-screen {
     height: 100vh;
   }
+  .w-32 {
+    width: calc(var(--spacing) * 32);
+  }
   .border-collapse {
     border-collapse: collapse;
+  }
+  .cursor-pointer {
+    cursor: pointer;
   }
   .resize {
     resize: both;
@@ -207,6 +217,9 @@
   }
   .bg-center {
     background-position: center;
+  }
+  .pt-5 {
+    padding-top: calc(var(--spacing) * 5);
   }
   .text-yellow-500 {
     color: var(--color-yellow-500);
