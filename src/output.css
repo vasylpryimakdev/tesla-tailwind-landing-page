@@ -276,11 +276,17 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-\[\#f8f8f8\] {
+    background-color: #f8f8f8;
+  }
   .bg-gray-800 {
     background-color: var(--color-gray-800);
   }
   .bg-slate-200 {
     background-color: var(--color-slate-200);
+  }
+  .bg-\[url\(\'https\:\/\/digitalassets-shop\.tesla\.com\/image\/upload\/f_auto\,q_auto\/v1\/content\/dam\/tesla\/CAR_ACCESSORIES\/MODEL_3\/CHARGING_ADAPTERS\/1734412-02-E-V2\.png\'\)\] {
+    background-image: url('https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/CHARGING_ADAPTERS/1734412-02-E-V2.png');
   }
   .bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1560958089-b8a1929cea89\?w\=2000\&auto\=format\&q\=100\'\)\] {
     background-image: url('https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=2000&auto=format&q=100');
@@ -294,11 +300,23 @@
   .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0\/bvlatuR\/std\/2880x2400\/Desktop-ModelY\?quality\=70\'\)\] {
     background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70');
   }
+  .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/dd739764-bcaa-4263-9488-8c73bc9fb046\/bvlatuR\/std\/2880x2400\/Desktop-Accessories\'\)\] {
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/dd739764-bcaa-4263-9488-8c73bc9fb046/bvlatuR/std/2880x2400/Desktop-Accessories');
+  }
+  .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/e90a341e-f9ca-4aa1-8eab-94afea118786\/bvlatuR\/std\/2880x1800\/M3-Homepage-D\'\)\] {
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/e90a341e-f9ca-4aa1-8eab-94afea118786/bvlatuR/std/2880x1800/M3-Homepage-D');
+  }
+  .bg-\[length\:60\%\] {
+    background-size: 60%;
+  }
   .bg-cover {
     background-size: cover;
   }
   .bg-center {
     background-position: center;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
   }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
