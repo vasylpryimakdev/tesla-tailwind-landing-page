@@ -2,6 +2,10 @@
 
 A simple Tesla-inspired landing page built with HTML and Tailwind CSS v4.
 
+## 🚀 Live Demo
+
+👉 [https://react-shop-cart-navy.vercel.app/](https://tesla-tailwind-landing-page.vercel.app/)
+
 ## Tech Stack
 
 - HTML5
